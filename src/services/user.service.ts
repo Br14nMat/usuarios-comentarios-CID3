@@ -1,5 +1,4 @@
-import { NotAuthorizedError } from "../exceptions";
-import UserExistsError from "../exceptions/UserExistsError";
+import { NotAuthorizedError, UserExistsError } from "../exceptions";
 import { UserDocument, UserInput } from "../models/user.model";
 import UserModel from "../models/user.model";
 import bcrypt from "bcrypt";
